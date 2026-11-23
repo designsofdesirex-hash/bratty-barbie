@@ -1,0 +1,79 @@
+# =============================================================================
+# .gitignore — Bratty Barbie Official Website
+# Only production web assets belong online. All temporary, local, IDE,
+# log, and system files are strictly excluded from GitHub Desktop & Git.
+# =============================================================================
+
+# --- Operating System & Desktop Files ---
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# --- Local Agent, Brain & Scratch Files ---
+.gemini/
+.antigravity/
+.agent/
+.system_generated/
+browser_evidence/
+scratch/
+step_*.txt
+*.analysis.txt
+*.scratch.*
+
+# --- Node & Dependency Caches ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+.npm
+
+# --- Environment & Secret Variables ---
+.env
+.env.*
+!.env.example
+*.local
+credentials*
+secrets*
+
+# --- Editor & IDE Directories ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# --- Temporary, Backup & Archive Files ---
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*~
+*.swp
+*_backup/
+*backup*/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+downloads/
+xbd-downloader/

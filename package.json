@@ -1,0 +1,19 @@
+﻿{
+  "name": "bratty-barbie-official",
+  "version": "1.0.0",
+  "description": "Bratty Barbie â€” Official Web Experience",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "bratty-barbie",
+    "editorial-web-design",
+    "femdom",
+    "luxury-portfolio"
+  ],
+  "author": "Bratty Barbie",
+  "license": "UNLICENSED",
+  "private": true
+}
