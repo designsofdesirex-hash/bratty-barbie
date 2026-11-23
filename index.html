@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-theme="dominant-pink">
 
 <head>
 
@@ -44,7 +44,7 @@
 
   <!-- Theme & Icons -->
 
-  <meta name="theme-color" content="#FAF8F5">
+  <meta name="theme-color" content="#180916">
 
   <link rel="icon" type="image/svg+xml" href="assets/img/mark.svg">
 
@@ -54,9 +54,9 @@
 
   <!-- Stylesheet -->
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=3.7">
+  <link rel="stylesheet" href="assets/css/styles.css?v=3.8">
 
-  <link rel="stylesheet" href="assets/css/theme-switcher.css?v=1.8">
+  <link rel="stylesheet" href="assets/css/theme-switcher.css?v=1.9">
 
 
 
@@ -80,7 +80,7 @@
 
       try {
 
-        var savedTheme = localStorage.getItem('barbie_theme') || 'noir';
+        var savedTheme = 'dominant-pink'; localStorage.setItem('barbie_theme', 'dominant-pink');
 
         document.documentElement.setAttribute('data-theme', savedTheme);
 
@@ -180,7 +180,7 @@
 
       </p>
 
-      <div class="age-gate__consent" style="margin-bottom: 18px; padding: 10px 14px; background: rgba(10, 10, 11, 0.72); border: 1px solid rgba(197, 160, 89, 0.4); border-radius: 8px; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
+      <div class="age-gate__consent" style="margin-bottom: 18px; padding: 10px 14px; background: rgba(255, 20, 147, 0.08); border: 1px solid rgba(255, 20, 147, 0.4); border-radius: 8px; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);">
 
         <span class="consent-pill" style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.9); display: block; line-height: 1.4; text-shadow: 0 1px 4px rgba(0,0,0,0.8);">🛡️ Essential Cookies &amp; 18+ Verification Only · Zero Ad Tracking</span>
 
@@ -248,139 +248,7 @@
 
 
 
-        <!-- Theme Selector in Top Ribbon -->
-
-        <div class="theme-menu-container" id="themeMenuContainer">
-
-          <button class="theme-trigger-btn" id="themeTriggerBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Select Color Theme">
-
-            <span class="theme-trigger-swatch" id="themeActiveSwatch"></span>
-
-            <span class="theme-trigger-text" id="themeActiveText">Champagne</span>
-
-            <svg class="theme-trigger-chevron" width="10" height="10" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-
-              <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-
-            </svg>
-
-          </button>
-
-          
-
-          <div class="theme-dropdown-menu" id="themeDropdownMenu" role="menu" aria-label="Theme Selection">
-
-            <div class="theme-dropdown-header">
-
-              <span>Color Themes</span>
-
-            </div>
-
-            <button class="theme-option-btn is-active" type="button" data-theme="noir" role="menuitem">
-
-              <span class="theme-option-swatch swatch--noir"></span>
-
-              <div class="theme-option-info">
-
-                <span class="theme-option-name">Champagne</span>
-
-                <span class="theme-option-desc">Warm ivory &amp; Haute gold</span>
-
-              </div>
-
-              <svg class="theme-check-icon" width="14" height="14" viewBox="0 0 16 16" fill="none">
-
-                <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-              </svg>
-
-            </button>
-
-            <button class="theme-option-btn" type="button" data-theme="dominant-pink" role="menuitem">
-
-              <span class="theme-option-swatch swatch--dominant-pink"></span>
-
-              <div class="theme-option-info">
-
-                <span class="theme-option-name">Fuchsia</span>
-
-                <span class="theme-option-desc">Electric Barbie pink</span>
-
-              </div>
-
-              <svg class="theme-check-icon" width="14" height="14" viewBox="0 0 16 16" fill="none">
-
-                <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-              </svg>
-
-            </button>
-
-            <button class="theme-option-btn" type="button" data-theme="soft-pink" role="menuitem">
-
-              <span class="theme-option-swatch swatch--soft-pink"></span>
-
-              <div class="theme-option-info">
-
-                <span class="theme-option-name">Blush</span>
-
-                <span class="theme-option-desc">Soft rose &amp; pearl ivory</span>
-
-              </div>
-
-              <svg class="theme-check-icon" width="14" height="14" viewBox="0 0 16 16" fill="none">
-
-                <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-              </svg>
-
-            </button>
-
-            <button class="theme-option-btn" type="button" data-theme="midnight-chrome" role="menuitem">
-
-              <span class="theme-option-swatch swatch--midnight-chrome"></span>
-
-              <div class="theme-option-info">
-
-                <span class="theme-option-name">Platinum</span>
-
-                <span class="theme-option-desc">Diamond cyan &amp; ice silver</span>
-
-              </div>
-
-              <svg class="theme-check-icon" width="14" height="14" viewBox="0 0 16 16" fill="none">
-
-                <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-              </svg>
-
-            </button>
-
-            <button class="theme-option-btn" type="button" data-theme="scarlet-venom" role="menuitem">
-
-              <span class="theme-option-swatch swatch--scarlet-venom"></span>
-
-              <div class="theme-option-info">
-
-                <span class="theme-option-name">Bordeaux</span>
-
-                <span class="theme-option-desc">Imperial ruby &amp; velvet</span>
-
-              </div>
-
-              <svg class="theme-check-icon" width="14" height="14" viewBox="0 0 16 16" fill="none">
-
-                <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-
-              </svg>
-
-            </button>
-
-          </div>
-
-        </div>
-
-
+        <!-- Theme: Fuchsia only (no switcher) -->
 
         <nav class="desktop-nav" aria-label="Main Navigation">
 
@@ -458,55 +326,6 @@
 
         <!-- Mobile Palette Switcher -->
 
-        <div class="drawer-theme-section">
-
-          <span class="drawer-theme-title">Color Palette</span>
-
-          <div class="drawer-theme-grid">
-
-            <button class="drawer-theme-btn is-active" type="button" data-theme="noir">
-
-              <span class="theme-option-swatch swatch--noir"></span>
-
-              <span class="drawer-theme-label">Champagne</span>
-
-            </button>
-
-            <button class="drawer-theme-btn" type="button" data-theme="dominant-pink">
-
-              <span class="theme-option-swatch swatch--dominant-pink"></span>
-
-              <span class="drawer-theme-label">Fuchsia</span>
-
-            </button>
-
-            <button class="drawer-theme-btn" type="button" data-theme="soft-pink">
-
-              <span class="theme-option-swatch swatch--soft-pink"></span>
-
-              <span class="drawer-theme-label">Blush</span>
-
-            </button>
-
-            <button class="drawer-theme-btn" type="button" data-theme="midnight-chrome">
-
-              <span class="theme-option-swatch swatch--midnight-chrome"></span>
-
-              <span class="drawer-theme-label">Platinum</span>
-
-            </button>
-
-            <button class="drawer-theme-btn" type="button" data-theme="scarlet-venom">
-
-              <span class="theme-option-swatch swatch--scarlet-venom"></span>
-
-              <span class="drawer-theme-label">Bordeaux</span>
-
-            </button>
-
-          </div>
-
-        </div>
 
 
 

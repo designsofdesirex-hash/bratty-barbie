@@ -376,7 +376,7 @@ ul, ol {
   align-items: center;
   justify-content: center;
   padding: var(--space-4);
-  background: rgba(250, 248, 245, 0.88);
+  background: rgba(24, 9, 22, 0.97);
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
   transition: opacity var(--dur-slow) var(--ease-out), visibility var(--dur-slow) var(--ease-out);
@@ -389,14 +389,14 @@ ul, ol {
 }
 
 .age-gate__panel {
-  background: var(--text-primary);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: #180916;
+  border: 1px solid rgba(255, 20, 147, 0.25);
   border-radius: var(--radius-lg);
   max-width: 440px;
   width: 100%;
   padding: 0 clamp(28px, 4vw, 44px) clamp(30px, 5vw, 46px);
   text-align: center;
-  box-shadow: 0 24px 60px -12px rgba(20, 19, 18, 0.08), 0 2px 6px rgba(20, 19, 18, 0.03);
+  box-shadow: 0 24px 60px -12px rgba(255, 20, 147, 0.15), 0 2px 6px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
 
@@ -412,7 +412,7 @@ ul, ol {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(20, 19, 18, 0.08), rgba(20, 19, 18, 0.74));
+  background: linear-gradient(180deg, rgba(24, 9, 22, 0.08), rgba(24, 9, 22, 0.74));
 }
 
 .age-gate__photo img {
@@ -440,15 +440,15 @@ ul, ol {
   font-size: 1.6rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #DFBF7A;
-  text-shadow: 0 0 20px rgba(197, 160, 89, 0.4);
+  color: #FF1493;
+  text-shadow: 0 0 24px rgba(255, 20, 147, 0.5);
   line-height: 1;
 }
 
 .age-gate__divider {
   width: 52px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #C5A059, transparent);
+  background: #FF1493;
   margin: var(--space-5) auto var(--space-4);
 }
 
@@ -486,17 +486,17 @@ ul, ol {
   font-size: 0.82rem;
   font-weight: 600;
   padding: 15px 32px;
-  background: linear-gradient(135deg, #ECC880 0%, #C5A059 50%, #9B783E 100%);
-  border: 1px solid rgba(255, 235, 175, 0.65);
-  color: #0C0C0D;
-  box-shadow: 0 4px 24px rgba(197, 160, 89, 0.35);
+  background: linear-gradient(135deg, #FF1493 0%, #E0007A 50%, #B50062 100%);
+  border: 1px solid rgba(255, 20, 147, 0.65);
+  color: #FFFFFF;
+  box-shadow: 0 4px 28px rgba(255, 20, 147, 0.4);
 }
 
 .age-gate__btn-enter:hover {
-  background: linear-gradient(135deg, #F5D696 0%, #D4AF37 50%, #AC8842 100%);
-  border-color: rgba(255, 255, 255, 0.9);
-  color: #000000;
-  box-shadow: 0 6px 30px rgba(212, 175, 55, 0.55);
+  background: linear-gradient(135deg, #FF4DB3 0%, #FF1493 50%, #D40080 100%);
+  border-color: rgba(255, 150, 200, 0.9);
+  color: #FFFFFF;
+  box-shadow: 0 6px 36px rgba(255, 20, 147, 0.6);
   transform: translateY(-2px);
 }
 
@@ -505,7 +505,7 @@ ul, ol {
   border: none;
   font-size: 0.82rem;
   letter-spacing: 0.06em;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.5);
   cursor: pointer;
   padding: 6px 16px;
   transition: color var(--dur-fast) var(--ease-out);
@@ -2830,7 +2830,7 @@ ul, ol {
   padding: clamp(40px, 7vw, 72px) clamp(28px, 6vw, 64px) clamp(30px, 5vw, 48px);
   background-color: #0A0A0B;
   background-image: linear-gradient(180deg, rgba(10, 10, 11, 0.12) 0%, rgba(10, 10, 11, 0.48) 40%, rgba(10, 10, 11, 0.92) 70%, rgba(10, 10, 11, 0.98) 100%), var(--age-gate-image, url('../img/age-gate.jpg'));
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  border: 1px solid rgba(255, 20, 147, 0.25);
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.65), 0 0 35px rgba(197, 160, 89, 0.12);
   background-position: center top, center 20%;
   background-size: cover;
@@ -2862,7 +2862,7 @@ ul, ol {
 }
 
 .age-gate__btn-exit {
-  color: #FFFFFF;
+  color: rgba(255,255,255,0.5);
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
 }
 

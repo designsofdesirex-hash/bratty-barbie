@@ -8,73 +8,10 @@
    ========================================================================== */
 
 /* ── THEME 1: CHAMPAGNE (Warm Ivory & Gold Quiet Luxury) ─────────────────── */
-html[data-theme="noir"],
-:root {
-  --theme-name:            "Champagne";
-  --bg-milky:              #FAF7F2;
-  --bg-pure:               #FFFFFF;
-  --bg-surface:            #F2EDE4;
-  --bg-surface-elevated:   #E8E0D2;
-  --bg-glass:              rgba(250, 247, 242, 0.96);
-  --bg-glass-card:         rgba(255, 255, 255, 0.95);
-  --bg-archive:            #F4EFE6;
 
-  /* Jet solid black titles & deep charcoal text */
-  --text-primary:          #000000;
-  --text-secondary:        #2B2520;
-  --text-muted:            #665E54;
-  --text-subtle:           #9E9385;
-
-  --border-hairline:       rgba(22, 21, 20, 0.08);
-  --border-medium:         rgba(22, 21, 20, 0.16);
-  --border-focus:          #C5A059;
-
-  /* Haute Joaillerie Gold */
-  --gold-primary:          #B8934A;
-  --gold-light:            #D4AF60;
-  --gold-shimmer:          #F0D89A;
-  --gold-dark:             #8C6C2E;
-  --gold-muted:            #9E824A;
-  --gold-border:           rgba(184, 147, 74, 0.35);
-  --gold-border-light:     rgba(212, 175, 96, 0.6);
-  --gold-glow:             0 0 24px rgba(184, 147, 74, 0.25);
-  --gold-gradient:         linear-gradient(135deg, #D4AF60 0%, #B8934A 50%, #8C6C2E 100%);
-  --gold-gradient-hover:   linear-gradient(135deg, #E2C278 0%, #C8A355 50%, #9B7836 100%);
-  --gold-surface:          rgba(184, 147, 74, 0.08);
-
-  --accent-gold-tint:      #B8934A;
-  --accent-lacquer:        #B8934A;
-  --accent-lacquer-soft:   #D4AF60;
-
-  /* Header */
-  --header-bg:             rgba(250, 247, 242, 0.94);
-  --header-border:         rgba(184, 147, 74, 0.25);
-  --header-brand-color:    #161514;
-  --header-nav-color:      #3C3630;
-  --header-nav-hover:      #B8934A;
-  --header-cta-bg:         linear-gradient(135deg, #D4AF60 0%, #B8934A 100%);
-  --header-cta-color:      #FFFFFF;
-  --header-cta-shadow:     0 4px 16px rgba(184, 147, 74, 0.3);
-
-  /* Cards & Sections */
-  --card-bg:               #FFFFFF;
-  --card-border:           rgba(184, 147, 74, 0.24);
-  --card-shadow:           0 12px 36px rgba(22, 21, 20, 0.05);
-
-  --hero-bg:               #FAF7F2;
-  --hero-overlay:          linear-gradient(180deg, rgba(250, 247, 242, 0.7) 0%, rgba(250, 247, 242, 0.95) 100%);
-  --hero-text:             #161514;
-
-  --footer-bg:             #F2EDE4;
-  --footer-border:         rgba(184, 147, 74, 0.25);
-  --footer-text:           #161514;
-
-  --shadow-soft:           0 4px 20px rgba(22, 21, 20, 0.04);
-  --shadow-card:           0 12px 36px rgba(22, 21, 20, 0.07);
-}
 
 /* ── THEME 2: FUCHSIA (Electric Barbie Pink & Velvet Plum) ───────────────── */
-html[data-theme="dominant-pink"] {
+html {
   --theme-name:            "Fuchsia";
   --bg-milky:              #180916;
   --bg-pure:               #120610;
@@ -139,199 +76,13 @@ html[data-theme="dominant-pink"] {
 }
 
 /* ── THEME 3: BLUSH (Soft Barbie Powder Rose & Pearl Ivory) ──────────────── */
-html[data-theme="soft-pink"] {
-  --theme-name:            "Blush";
-  --bg-milky:              #FFF6F9;
-  --bg-pure:               #FFFFFF;
-  --bg-surface:            #FEEAF2;
-  --bg-surface-elevated:   #FED9E7;
-  --bg-glass:              rgba(255, 246, 249, 0.96);
-  --bg-glass-card:         rgba(255, 255, 255, 0.96);
-  --bg-archive:            #FFF0F5;
 
-  /* Jet solid black titles & deep berry charcoal */
-  --text-primary:          #000000;
-  --text-secondary:        #3B1428;
-  --text-muted:            #783E5D;
-  --text-subtle:           #B880A0;
-
-  --border-hairline:       rgba(42, 14, 28, 0.08);
-  --border-medium:         rgba(42, 14, 28, 0.16);
-  --border-focus:          #E0528A;
-
-  /* Delicate Rose Gold & Powder Pink */
-  --gold-primary:          #E0528A;
-  --gold-light:            #F07BAA;
-  --gold-shimmer:          #FFCCE1;
-  --gold-dark:             #A82258;
-  --gold-muted:            #C85080;
-  --gold-border:           rgba(224, 82, 138, 0.32);
-  --gold-border-light:     rgba(240, 123, 170, 0.6);
-  --gold-glow:             0 0 24px rgba(224, 82, 138, 0.28);
-  --gold-gradient:         linear-gradient(135deg, #F07BAA 0%, #E0528A 50%, #A82258 100%);
-  --gold-gradient-hover:   linear-gradient(135deg, #F894BC 0%, #EA6498 50%, #B82A62 100%);
-  --gold-surface:          rgba(224, 82, 138, 0.08);
-
-  --accent-gold-tint:      #E0528A;
-  --accent-lacquer:        #E0528A;
-  --accent-lacquer-soft:   #F07BAA;
-
-  /* Header */
-  --header-bg:             rgba(255, 246, 249, 0.94);
-  --header-border:         rgba(224, 82, 138, 0.25);
-  --header-brand-color:    #2A0E1C;
-  --header-nav-color:      #56233E;
-  --header-nav-hover:      #E0528A;
-  --header-cta-bg:         linear-gradient(135deg, #F07BAA 0%, #E0528A 100%);
-  --header-cta-color:      #FFFFFF;
-  --header-cta-shadow:     0 4px 16px rgba(224, 82, 138, 0.35);
-
-  /* Cards & Sections */
-  --card-bg:               #FFFFFF;
-  --card-border:           rgba(224, 82, 138, 0.24);
-  --card-shadow:           0 12px 36px rgba(42, 14, 28, 0.05);
-
-  --hero-bg:               #FFF6F9;
-  --hero-overlay:          linear-gradient(180deg, rgba(255, 246, 249, 0.7) 0%, rgba(255, 246, 249, 0.95) 100%);
-  --hero-text:             #2A0E1C;
-
-  --footer-bg:             #FEEAF2;
-  --footer-border:         rgba(224, 82, 138, 0.25);
-  --footer-text:           #2A0E1C;
-
-  --shadow-soft:           0 4px 20px rgba(42, 14, 28, 0.04);
-  --shadow-card:           0 12px 36px rgba(42, 14, 28, 0.08);
-}
 
 /* ── THEME 4: PLATINUM (Diamond Cyan & Midnight Arctic Slate) ────────────── */
-html[data-theme="midnight-chrome"] {
-  --theme-name:            "Platinum";
-  --bg-milky:              #0A121E;
-  --bg-pure:               #060B12;
-  --bg-surface:            #121D2C;
-  --bg-surface-elevated:   #1A283C;
-  --bg-glass:              rgba(10, 18, 30, 0.94);
-  --bg-glass-card:         rgba(18, 29, 44, 0.92);
-  --bg-archive:            #0E1724;
 
-  /* Ice diamond white & frost cyan */
-  --text-primary:          #FFFFFF;
-  --text-secondary:        #D6E8FA;
-  --text-muted:            #7FA3C7;
-  --text-subtle:           #354E6B;
-
-  --border-hairline:       rgba(0, 210, 255, 0.14);
-  --border-medium:         rgba(0, 210, 255, 0.28);
-  --border-focus:          #00D2FF;
-
-  /* Electric Diamond Cyan & Titanium */
-  --gold-primary:          #00D2FF;
-  --gold-light:            #66E3FF;
-  --gold-shimmer:          #B8F4FF;
-  --gold-dark:             #009BC2;
-  --gold-muted:            #38BEE0;
-  --gold-border:           rgba(0, 210, 255, 0.42);
-  --gold-border-light:     rgba(102, 227, 255, 0.65);
-  --gold-glow:             0 0 28px rgba(0, 210, 255, 0.45);
-  --gold-gradient:         linear-gradient(135deg, #66E3FF 0%, #00D2FF 50%, #009BC2 100%);
-  --gold-gradient-hover:   linear-gradient(135deg, #8CEBFF 0%, #29D8FF 50%, #00AACE 100%);
-  --gold-surface:          rgba(0, 210, 255, 0.1);
-
-  --accent-gold-tint:      #00D2FF;
-  --accent-lacquer:        #00D2FF;
-  --accent-lacquer-soft:   #66E3FF;
-
-  /* Header */
-  --header-bg:             rgba(10, 18, 30, 0.94);
-  --header-border:         rgba(0, 210, 255, 0.3);
-  --header-brand-color:    #FFFFFF;
-  --header-nav-color:      #D6E8FA;
-  --header-nav-hover:      #66E3FF;
-  --header-cta-bg:         linear-gradient(135deg, #66E3FF 0%, #00D2FF 100%);
-  --header-cta-color:      #060B12;
-  --header-cta-shadow:     0 4px 20px rgba(0, 210, 255, 0.5);
-
-  /* Cards & Sections */
-  --card-bg:               rgba(18, 29, 44, 0.9);
-  --card-border:           rgba(0, 210, 255, 0.35);
-  --card-shadow:           0 14px 40px rgba(0, 0, 0, 0.55);
-
-  --hero-bg:               #0A121E;
-  --hero-overlay:          linear-gradient(180deg, rgba(10, 18, 30, 0.75) 0%, rgba(10, 18, 30, 0.98) 100%);
-  --hero-text:             #FFFFFF;
-
-  --footer-bg:             #060B12;
-  --footer-border:         rgba(0, 210, 255, 0.3);
-  --footer-text:           #FFFFFF;
-
-  --shadow-soft:           0 4px 24px rgba(0, 210, 255, 0.1);
-  --shadow-card:           0 12px 36px rgba(0, 0, 0, 0.6);
-}
 
 /* ── THEME 5: BORDEAUX (Imperial Burgundy & Royal Ruby) ──────────────────── */
-html[data-theme="scarlet-venom"] {
-  --theme-name:            "Bordeaux";
-  --bg-milky:              #1A090C;
-  --bg-pure:               #120507;
-  --bg-surface:            #260F13;
-  --bg-surface-elevated:   #34151B;
-  --bg-glass:              rgba(26, 9, 12, 0.94);
-  --bg-glass-card:         rgba(38, 15, 19, 0.92);
-  --bg-archive:            #1F0C0F;
 
-  /* Luminous warm cream & rose silk */
-  --text-primary:          #FFFFFF;
-  --text-secondary:        #FFD6DC;
-  --text-muted:            #C5858F;
-  --text-subtle:           #662832;
-
-  --border-hairline:       rgba(230, 30, 56, 0.16);
-  --border-medium:         rgba(230, 30, 56, 0.3);
-  --border-focus:          #E61E38;
-
-  /* Royal Ruby & Crimson Velvet */
-  --gold-primary:          #E61E38;
-  --gold-light:            #FF526B;
-  --gold-shimmer:          #FFB3BF;
-  --gold-dark:             #A80E22;
-  --gold-muted:            #CC3548;
-  --gold-border:           rgba(230, 30, 56, 0.45);
-  --gold-border-light:     rgba(255, 82, 107, 0.7);
-  --gold-glow:             0 0 28px rgba(230, 30, 56, 0.5);
-  --gold-gradient:         linear-gradient(135deg, #FF526B 0%, #E61E38 50%, #A80E22 100%);
-  --gold-gradient-hover:   linear-gradient(135deg, #FF758A 0%, #F52D47 50%, #B8152B 100%);
-  --gold-surface:          rgba(230, 30, 56, 0.12);
-
-  --accent-gold-tint:      #E61E38;
-  --accent-lacquer:        #E61E38;
-  --accent-lacquer-soft:   #FF526B;
-
-  /* Header */
-  --header-bg:             rgba(26, 9, 12, 0.94);
-  --header-border:         rgba(230, 30, 56, 0.35);
-  --header-brand-color:    #FFFFFF;
-  --header-nav-color:      #FFD6DC;
-  --header-nav-hover:      #FF526B;
-  --header-cta-bg:         linear-gradient(135deg, #FF526B 0%, #E61E38 100%);
-  --header-cta-color:      #FFFFFF;
-  --header-cta-shadow:     0 4px 20px rgba(230, 30, 56, 0.55);
-
-  /* Cards & Sections */
-  --card-bg:               rgba(38, 15, 19, 0.9);
-  --card-border:           rgba(230, 30, 56, 0.4);
-  --card-shadow:           0 14px 40px rgba(0, 0, 0, 0.55);
-
-  --hero-bg:               #1A090C;
-  --hero-overlay:          linear-gradient(180deg, rgba(26, 9, 12, 0.75) 0%, rgba(26, 9, 12, 0.98) 100%);
-  --hero-text:             #FFFFFF;
-
-  --footer-bg:             #120507;
-  --footer-border:         rgba(230, 30, 56, 0.35);
-  --footer-text:           #FFFFFF;
-
-  --shadow-soft:           0 4px 24px rgba(230, 30, 56, 0.12);
-  --shadow-card:           0 12px 36px rgba(0, 0, 0, 0.6);
-}
 
 /* =========================================================================
    UNIVERSAL THEME-AWARE ELEMENT OVERRIDES
@@ -900,178 +651,10 @@ body {
 /* =========================================================================
    TOP RIBBON THEME SWITCHER BUTTON & POPUP MENU
    ========================================================================= */
-.theme-menu-container {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  z-index: 105;
-}
 
-.theme-trigger-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 7px 14px;
-  border-radius: var(--radius-pill);
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  color: var(--text-primary);
-  font-family: var(--font-body);
-  font-size: 0.76rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all var(--dur-fast) var(--ease-out);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  white-space: nowrap;
-}
-
-.theme-trigger-btn:hover,
-.theme-trigger-btn[aria-expanded="true"] {
-  background: var(--gold-surface);
-  border-color: var(--gold-border-light);
-  box-shadow: 0 4px 16px var(--gold-glow);
-  transform: translateY(-1px);
-}
-
-.theme-trigger-swatch {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  background: var(--gold-primary);
-  box-shadow: 0 0 8px var(--gold-primary);
-  transition: all var(--dur-fast) var(--ease-out);
-}
-
-.theme-trigger-chevron {
-  opacity: 0.7;
-  transition: transform var(--dur-fast) var(--ease-out);
-}
-
-.theme-trigger-btn[aria-expanded="true"] .theme-trigger-chevron {
-  transform: rotate(180deg);
-}
 
 /* Dropdown Menu Popup */
-.theme-dropdown-menu {
-  position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
-  width: 260px;
-  background: var(--header-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
-  padding: 8px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), var(--gold-glow);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-6px) scale(0.97);
-  transition: opacity var(--dur-fast) var(--ease-out),
-              transform var(--dur-fast) var(--ease-out),
-              visibility var(--dur-fast) var(--ease-out);
-  pointer-events: none;
-  z-index: 210;
-}
 
-.theme-dropdown-menu.is-open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0) scale(1);
-  pointer-events: auto;
-}
-
-.theme-dropdown-header {
-  padding: 6px 10px 8px;
-  border-bottom: 1px solid var(--border-hairline);
-  margin-bottom: 6px;
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.theme-option-btn {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  background: transparent;
-  color: var(--text-primary);
-  text-align: left;
-  cursor: pointer;
-  transition: all var(--dur-fast) var(--ease-out);
-}
-
-.theme-option-btn:hover {
-  background: var(--gold-surface);
-  border-color: var(--gold-border);
-}
-
-.theme-option-btn.is-active {
-  background: var(--gold-surface);
-  border-color: var(--gold-border-light);
-}
-
-.theme-option-swatch {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
-.theme-option-swatch.swatch--noir {
-  background: radial-gradient(circle at 35% 35%, #D4AF60, #8C6C2E);
-  box-shadow: inset 0 0 0 1px rgba(184, 147, 74, 0.6), 0 0 8px rgba(184, 147, 74, 0.4);
-}
-
-.theme-option-swatch.swatch--dominant-pink {
-  background: radial-gradient(circle at 35% 35%, #FF5EB0, #C70068);
-  box-shadow: inset 0 0 0 1px rgba(255, 20, 147, 0.6), 0 0 8px rgba(255, 20, 147, 0.5);
-}
-
-.theme-option-swatch.swatch--soft-pink {
-  background: radial-gradient(circle at 35% 35%, #F07BAA, #A82258);
-  box-shadow: inset 0 0 0 1px rgba(224, 82, 138, 0.6), 0 0 8px rgba(224, 82, 138, 0.4);
-}
-
-.theme-option-swatch.swatch--midnight-chrome {
-  background: radial-gradient(circle at 35% 35%, #66E3FF, #009BC2);
-  box-shadow: inset 0 0 0 1px rgba(0, 210, 255, 0.6), 0 0 8px rgba(0, 210, 255, 0.5);
-}
-
-.theme-option-swatch.swatch--scarlet-venom {
-  background: radial-gradient(circle at 35% 35%, #FF526B, #A80E22);
-  box-shadow: inset 0 0 0 1px rgba(230, 30, 56, 0.6), 0 0 8px rgba(230, 30, 56, 0.5);
-}
-
-.theme-option-info {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.theme-option-name {
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.theme-option-desc {
-  font-family: var(--font-body);
-  font-size: 0.68rem;
-  color: var(--text-muted);
-}
 
 /* =========================================================================
    STRICT CONTRAST RULE:
@@ -1082,326 +665,60 @@ body {
    ========================================================================= */
 
 /* ── WHITE / LIGHT BACKGROUND THEMES: Champagne & Blush ── */
-html[data-theme="noir"],
-html[data-theme="soft-pink"],
-html:not([data-theme]) {
-  --text-primary: #000000;
-}
 
-html[data-theme="noir"] h1,
-html[data-theme="noir"] h2,
-html[data-theme="noir"] h3,
-html[data-theme="noir"] h4,
-html[data-theme="noir"] h5,
-html[data-theme="noir"] h6,
-html[data-theme="soft-pink"] h1,
-html[data-theme="soft-pink"] h2,
-html[data-theme="soft-pink"] h3,
-html[data-theme="soft-pink"] h4,
-html[data-theme="soft-pink"] h5,
-html[data-theme="soft-pink"] h6,
-html:not([data-theme]) h1,
-html:not([data-theme]) h2,
-html:not([data-theme]) h3,
-html:not([data-theme]) h4,
-html:not([data-theme]) h5,
-html:not([data-theme]) h6,
-html[data-theme="noir"] .hero__title,
-html[data-theme="soft-pink"] .hero__title,
-html:not([data-theme]) .hero__title,
-html[data-theme="noir"] .text-editorial-title,
-html[data-theme="soft-pink"] .text-editorial-title,
-html:not([data-theme]) .text-editorial-title,
-html[data-theme="noir"] .service-menu-card__title,
-html[data-theme="soft-pink"] .service-menu-card__title,
-html:not([data-theme]) .service-menu-card__title,
-html[data-theme="noir"] .service-menu-card__price,
-html[data-theme="soft-pink"] .service-menu-card__price,
-html:not([data-theme]) .service-menu-card__price,
-html[data-theme="noir"] .customs-highlight-box h3,
-html[data-theme="soft-pink"] .customs-highlight-box h3,
-html:not([data-theme]) .customs-highlight-box h3,
-html[data-theme="noir"] .boundaries-box h3,
-html[data-theme="soft-pink"] .boundaries-box h3,
-html:not([data-theme]) .boundaries-box h3,
-html[data-theme="noir"] .booking-card__masthead h3,
-html[data-theme="soft-pink"] .booking-card__masthead h3,
-html:not([data-theme]) .booking-card__masthead h3,
-html[data-theme="noir"] .links-command h3,
-html[data-theme="soft-pink"] .links-command h3,
-html:not([data-theme]) .links-command h3,
-html[data-theme="noir"] .link-card__title,
-html[data-theme="soft-pink"] .link-card__title,
-html:not([data-theme]) .link-card__title,
-html[data-theme="noir"] .photo-tile__title,
-html[data-theme="soft-pink"] .photo-tile__title,
-html:not([data-theme]) .photo-tile__title,
-html[data-theme="noir"] .site-header__brand-name,
-html[data-theme="soft-pink"] .site-header__brand-name,
-html:not([data-theme]) .site-header__brand-name,
-html[data-theme="noir"] .motto-line--1,
-html[data-theme="noir"] .motto-line--3,
-html[data-theme="soft-pink"] .motto-line--1,
-html[data-theme="soft-pink"] .motto-line--3,
-html:not([data-theme]) .motto-line--1,
-html:not([data-theme]) .motto-line--3 {
-  color: #000000 !important;
-}
 
 /* Dropdown popover when in white/light background */
-html[data-theme="noir"] .theme-dropdown-menu,
-html[data-theme="soft-pink"] .theme-dropdown-menu,
-html:not([data-theme]) .theme-dropdown-menu {
-  background: #FFFFFF !important;
-  border: 1px solid rgba(0, 0, 0, 0.12) !important;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12) !important;
-}
 
-html[data-theme="noir"] .theme-dropdown-header,
-html[data-theme="soft-pink"] .theme-dropdown-header,
-html:not([data-theme]) .theme-dropdown-header {
-  color: #000000 !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-  font-weight: 700 !important;
-}
-
-html[data-theme="noir"] .theme-option-name,
-html[data-theme="soft-pink"] .theme-option-name,
-html:not([data-theme]) .theme-option-name {
-  color: #000000 !important;
-  font-weight: 600 !important;
-}
-
-html[data-theme="noir"] .theme-option-desc,
-html[data-theme="soft-pink"] .theme-option-desc,
-html:not([data-theme]) .theme-option-desc {
-  color: #444444 !important;
-}
-
-html[data-theme="noir"] .theme-trigger-btn,
-html[data-theme="soft-pink"] .theme-trigger-btn,
-html:not([data-theme]) .theme-trigger-btn {
-  background: #FFFFFF !important;
-  border-color: rgba(0, 0, 0, 0.15) !important;
-  color: #000000 !important;
-}
-
-html[data-theme="noir"] .drawer-theme-title,
-html[data-theme="soft-pink"] .drawer-theme-title,
-html:not([data-theme]) .drawer-theme-title {
-  color: #000000 !important;
-}
-
-html[data-theme="noir"] .drawer-theme-label,
-html[data-theme="soft-pink"] .drawer-theme-label,
-html:not([data-theme]) .drawer-theme-label {
-  color: #333333 !important;
-}
 
 /* ── BLACK / DARK BACKGROUND THEMES: Fuchsia, Platinum, Bordeaux ── */
-html[data-theme="dominant-pink"],
-html[data-theme="midnight-chrome"],
-html[data-theme="scarlet-venom"] {
-  --text-primary: #FFFFFF;
-}
-
-html[data-theme="dominant-pink"] h1,
-html[data-theme="dominant-pink"] h2,
-html[data-theme="dominant-pink"] h3,
-html[data-theme="dominant-pink"] h4,
-html[data-theme="dominant-pink"] h5,
-html[data-theme="dominant-pink"] h6,
-html[data-theme="midnight-chrome"] h1,
-html[data-theme="midnight-chrome"] h2,
-html[data-theme="midnight-chrome"] h3,
-html[data-theme="midnight-chrome"] h4,
-html[data-theme="midnight-chrome"] h5,
-html[data-theme="midnight-chrome"] h6,
-html[data-theme="scarlet-venom"] h1,
-html[data-theme="scarlet-venom"] h2,
-html[data-theme="scarlet-venom"] h3,
-html[data-theme="scarlet-venom"] h4,
-html[data-theme="scarlet-venom"] h5,
-html[data-theme="scarlet-venom"] h6,
-html[data-theme="dominant-pink"] .hero__title,
-html[data-theme="midnight-chrome"] .hero__title,
-html[data-theme="scarlet-venom"] .hero__title,
-html[data-theme="dominant-pink"] .text-editorial-title,
-html[data-theme="midnight-chrome"] .text-editorial-title,
-html[data-theme="scarlet-venom"] .text-editorial-title,
-html[data-theme="dominant-pink"] .service-menu-card__title,
-html[data-theme="midnight-chrome"] .service-menu-card__title,
-html[data-theme="scarlet-venom"] .service-menu-card__title,
-html[data-theme="dominant-pink"] .service-menu-card__price,
-html[data-theme="midnight-chrome"] .service-menu-card__price,
-html[data-theme="scarlet-venom"] .service-menu-card__price,
-html[data-theme="dominant-pink"] .customs-highlight-box h3,
-html[data-theme="midnight-chrome"] .customs-highlight-box h3,
-html[data-theme="scarlet-venom"] .customs-highlight-box h3,
-html[data-theme="dominant-pink"] .boundaries-box h3,
-html[data-theme="midnight-chrome"] .boundaries-box h3,
-html[data-theme="scarlet-venom"] .boundaries-box h3,
-html[data-theme="dominant-pink"] .booking-card__masthead h3,
-html[data-theme="midnight-chrome"] .booking-card__masthead h3,
-html[data-theme="scarlet-venom"] .booking-card__masthead h3,
-html[data-theme="dominant-pink"] .links-command h3,
-html[data-theme="midnight-chrome"] .links-command h3,
-html[data-theme="scarlet-venom"] .links-command h3,
-html[data-theme="dominant-pink"] .link-card__title,
-html[data-theme="midnight-chrome"] .link-card__title,
-html[data-theme="scarlet-venom"] .link-card__title,
-html[data-theme="dominant-pink"] .photo-tile__title,
-html[data-theme="midnight-chrome"] .photo-tile__title,
-html[data-theme="scarlet-venom"] .photo-tile__title,
-html[data-theme="dominant-pink"] .site-header__brand-name,
-html[data-theme="midnight-chrome"] .site-header__brand-name,
-html[data-theme="scarlet-venom"] .site-header__brand-name,
-html[data-theme="dominant-pink"] .motto-line--1,
-html[data-theme="dominant-pink"] .motto-line--3,
-html[data-theme="midnight-chrome"] .motto-line--1,
-html[data-theme="midnight-chrome"] .motto-line--3,
-html[data-theme="scarlet-venom"] .motto-line--1,
-html[data-theme="scarlet-venom"] .motto-line--3 {
+html,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html .hero__title,
+html .text-editorial-title,
+html .service-menu-card__title,
+html .service-menu-card__price,
+html .customs-highlight-box h3,
+html .boundaries-box h3,
+html .booking-card__masthead h3,
+html .links-command h3,
+html .link-card__title,
+html .photo-tile__title,
+html .site-header__brand-name,
+html .motto-line--1,
+html .motto-line--3 {
   color: #FFFFFF !important;
 }
 
 /* Dropdown popover when in black/dark background */
-html[data-theme="dominant-pink"] .theme-dropdown-menu {
-  background: #140713 !important;
-  border: 1px solid rgba(255, 20, 147, 0.35) !important;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 20, 147, 0.25) !important;
-}
+html 
 
-html[data-theme="midnight-chrome"] .theme-dropdown-menu {
-  background: #080E18 !important;
-  border: 1px solid rgba(0, 210, 255, 0.35) !important;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 210, 255, 0.25) !important;
-}
 
-html[data-theme="scarlet-venom"] .theme-dropdown-menu {
-  background: #14070A !important;
-  border: 1px solid rgba(230, 30, 56, 0.35) !important;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(230, 30, 56, 0.25) !important;
-}
+html 
 
-html[data-theme="dominant-pink"] .theme-dropdown-header,
-html[data-theme="midnight-chrome"] .theme-dropdown-header,
-html[data-theme="scarlet-venom"] .theme-dropdown-header {
-  color: #FFFFFF !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
-  font-weight: 700 !important;
-}
+html 
 
-html[data-theme="dominant-pink"] .theme-option-name,
-html[data-theme="midnight-chrome"] .theme-option-name,
-html[data-theme="scarlet-venom"] .theme-option-name {
-  color: #FFFFFF !important;
-  font-weight: 600 !important;
-}
+html 
 
-html[data-theme="dominant-pink"] .theme-option-desc,
-html[data-theme="midnight-chrome"] .theme-option-desc,
-html[data-theme="scarlet-venom"] .theme-option-desc {
-  color: rgba(255, 255, 255, 0.7) !important;
-}
+html 
 
-html[data-theme="dominant-pink"] .theme-trigger-btn,
-html[data-theme="midnight-chrome"] .theme-trigger-btn,
-html[data-theme="scarlet-venom"] .theme-trigger-btn {
-  color: #FFFFFF !important;
-}
+html 
 
-html[data-theme="dominant-pink"] .drawer-theme-title,
-html[data-theme="midnight-chrome"] .drawer-theme-title,
-html[data-theme="scarlet-venom"] .drawer-theme-title {
-  color: #FFFFFF !important;
-}
+html 
 
-html[data-theme="dominant-pink"] .drawer-theme-label,
-html[data-theme="midnight-chrome"] .drawer-theme-label,
-html[data-theme="scarlet-venom"] .drawer-theme-label {
-  color: rgba(255, 255, 255, 0.7) !important;
-}
-
-.theme-check-icon {
-  opacity: 0;
-  color: var(--gold-primary);
-  flex-shrink: 0;
-  transition: opacity var(--dur-fast) var(--ease-out);
-}
-
-.theme-option-btn.is-active .theme-check-icon {
-  opacity: 1;
-}
 
 /* Mobile drawer theme block */
-.drawer-theme-section {
-  padding: 16px;
-  margin-bottom: 16px;
-  border-radius: 10px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border-hairline);
-}
 
-.drawer-theme-title {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-  display: block;
-}
-
-.drawer-theme-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 8px;
-}
-
-.drawer-theme-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 4px;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  background: transparent;
-  cursor: pointer;
-  transition: all var(--dur-fast) var(--ease-out);
-}
-
-.drawer-theme-btn.is-active {
-  border-color: var(--gold-border-light);
-  background: var(--gold-surface);
-}
-
-.drawer-theme-label {
-  font-size: 0.6rem;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: var(--text-muted);
-}
-
-.drawer-theme-btn.is-active .drawer-theme-label {
-  color: var(--gold-primary);
-  font-weight: 600;
-}
 
 /* On mobile header, make trigger button compact */
 @media (max-width: 600px) {
-  .theme-trigger-btn {
-    padding: 6px 10px;
-    font-size: 0.72rem;
-  }
-  .theme-trigger-text {
-    display: none;
-  }
-  .theme-dropdown-menu {
-    right: -40px;
-    width: 240px;
-  }
+  
+  
+  
 }
 
 /* =========================================================================
@@ -1536,15 +853,9 @@ html[data-theme="scarlet-venom"] .drawer-theme-label {
 }
 
 /* Strict Title Color Rules for Category Titles */
-html[data-theme="noir"] .links-category__title,
-html[data-theme="soft-pink"] .links-category__title,
-html:not([data-theme]) .links-category__title {
-  color: #000000 !important;
-}
 
-html[data-theme="dominant-pink"] .links-category__title,
-html[data-theme="midnight-chrome"] .links-category__title,
-html[data-theme="scarlet-venom"] .links-category__title {
+
+html .links-category__title {
   color: #FFFFFF !important;
 }
 
@@ -1598,20 +909,12 @@ html[data-theme="scarlet-venom"] .links-category__title {
 }
 
 /* Theme-specific X pill text colors */
-html[data-theme="noir"] .header-x-pill,
-html[data-theme="soft-pink"] .header-x-pill {
-  color: #000000 !important;
-}
 
-html[data-theme="dominant-pink"] .header-x-pill,
-html[data-theme="midnight-chrome"] .header-x-pill,
-html[data-theme="scarlet-venom"] .header-x-pill {
+
+html .header-x-pill {
   color: #FFFFFF !important;
 }
 
-html:not([data-theme]) .header-x-pill {
-  color: var(--text-primary);
-}
 
 /* =========================================================================
    ELEGANT HEADER X ICON BUTTON (NO USERNAME)
@@ -1650,15 +953,8 @@ html:not([data-theme]) .header-x-pill {
   transform: scale(1.1);
 }
 
-html[data-theme="noir"] .header-x-btn,
-html[data-theme="soft-pink"] .header-x-btn,
-html:not([data-theme]) .header-x-btn {
-  color: #000000 !important;
-}
 
-html[data-theme="dominant-pink"] .header-x-btn,
-html[data-theme="midnight-chrome"] .header-x-btn,
-html[data-theme="scarlet-venom"] .header-x-btn {
+html .header-x-btn {
   color: #FFFFFF !important;
 }
 
@@ -1932,15 +1228,9 @@ html[data-theme="scarlet-venom"] .header-x-btn {
 }
 
 /* Strict Title Color Rules for Portal Cards per Theme */
-html[data-theme="noir"] .portal-card__title,
-html[data-theme="soft-pink"] .portal-card__title,
-html:not([data-theme]) .portal-card__title {
-  color: #000000 !important;
-}
 
-html[data-theme="dominant-pink"] .portal-card__title,
-html[data-theme="midnight-chrome"] .portal-card__title,
-html[data-theme="scarlet-venom"] .portal-card__title {
+
+html .portal-card__title {
   color: #FFFFFF !important;
 }
 
@@ -2021,15 +1311,9 @@ html[data-theme="scarlet-venom"] .portal-card__title {
 }
 
 /* Strict Title Color Rules for Receipts Section per theme */
-html[data-theme="noir"] .receipts-section h2,
-html[data-theme="soft-pink"] .receipts-section h2,
-html:not([data-theme]) .receipts-section h2 {
-  color: #000000 !important;
-}
 
-html[data-theme="dominant-pink"] .receipts-section h2,
-html[data-theme="midnight-chrome"] .receipts-section h2,
-html[data-theme="scarlet-venom"] .receipts-section h2 {
+
+html .receipts-section h2 {
   color: #FFFFFF !important;
 }
 
@@ -2110,58 +1394,10 @@ html[data-theme="scarlet-venom"] .receipts-section h2 {
 }
 
 /* Compact Palette Switcher inside Drawer */
-.drawer-theme-section {
-  margin-bottom: clamp(12px, 2vh, 18px);
-  padding: clamp(8px, 1.4vh, 12px) 10px;
-  border-radius: var(--radius-sm, 10px);
-  border: 1px solid var(--card-border);
-  background: rgba(0, 0, 0, 0.03);
-  flex-shrink: 0;
-}
 
-html[data-theme="dominant-pink"] .drawer-theme-section,
-html[data-theme="midnight-chrome"] .drawer-theme-section,
-html[data-theme="scarlet-venom"] .drawer-theme-section {
-  background: rgba(255, 255, 255, 0.04);
-}
 
-.drawer-theme-title {
-  font-family: var(--font-mono);
-  font-size: 0.64rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: clamp(6px, 1vh, 8px);
-  display: block;
-}
+html 
 
-.drawer-theme-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 4px;
-}
-
-.drawer-theme-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-  padding: 4px 2px;
-  border-radius: 6px;
-  border: 1px solid transparent;
-  background: transparent;
-  cursor: pointer;
-  transition: all var(--dur-fast, 0.2s) var(--ease-out);
-}
-
-.drawer-theme-btn .theme-option-swatch {
-  width: 16px;
-  height: 16px;
-}
-
-.drawer-theme-label {
-  font-size: 0.56rem;
-  letter-spacing: 0.02em;
-}
 
 /* Responsive Nav Links that Scale Proportionally */
 .nav-drawer__nav {
