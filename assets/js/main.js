@@ -601,8 +601,8 @@ ${vision}
   // --------------------------------------------------------------------------
   const initThemeSwitcher = () => {
     // Fuchsia only — theme switching removed
-    document.documentElement.setAttribute('data-theme', 'dominant-pink');
-    try { localStorage.setItem('barbie_theme', 'dominant-pink'); } catch (e) {}
+    document.documentElement.setAttribute('data-theme', 'soft-pink');
+    try { localStorage.setItem('barbie_theme', 'soft-pink'); } catch (e) {}
   };
 
 

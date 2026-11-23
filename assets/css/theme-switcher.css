@@ -1,78 +1,71 @@
 /* ==========================================================================
-   BRATTY BARBIE – 5 HAUTE LUXURY THEMES
-   1. Champagne (Warm Ivory & Haute Jewellery Gold)
-   2. Fuchsia   (Electric Barbie Pink & Velvet Blackberry)
-   3. Blush     (Soft Powder Rose & Pearl Ivory)
-   4. Platinum  (Diamond Cyan & Midnight Arctic Slate)
-   5. Bordeaux  (Imperial Burgundy & Royal Ruby)
+   BRATTY BARBIE – SOFT PINK HAUTE LUXURY THEME (BLUSH)
    ========================================================================== */
 
-/* ── THEME 1: CHAMPAGNE (Warm Ivory & Gold Quiet Luxury) ─────────────────── */
+:root,
+html,
+html[data-theme="soft-pink"] {
+  --theme-name:            "Blush";
+  --bg-milky:              #FFF6F9;
+  --bg-pure:               #FFFFFF;
+  --bg-surface:            #FEEAF2;
+  --bg-surface-elevated:   #FED9E7;
+  --bg-glass:              rgba(255, 246, 249, 0.96);
+  --bg-glass-card:         rgba(255, 255, 255, 0.96);
+  --bg-archive:            #FFF0F5;
 
+  /* Jet solid black titles & deep berry charcoal */
+  --text-primary:          #000000;
+  --text-secondary:        #3B1428;
+  --text-muted:            #783E5D;
+  --text-subtle:           #B880A0;
 
-/* ── THEME 2: FUCHSIA (Electric Barbie Pink & Velvet Plum) ───────────────── */
-html {
-  --theme-name:            "Fuchsia";
-  --bg-milky:              #180916;
-  --bg-pure:               #120610;
-  --bg-surface:            #240D20;
-  --bg-surface-elevated:   #30122B;
-  --bg-glass:              rgba(24, 9, 22, 0.94);
-  --bg-glass-card:         rgba(36, 13, 32, 0.92);
-  --bg-archive:            #1D0B1B;
+  --border-hairline:       rgba(42, 14, 28, 0.08);
+  --border-medium:         rgba(42, 14, 28, 0.16);
+  --border-focus:          #E0528A;
 
-  /* Crisp luminous white & strawberry milk */
-  --text-primary:          #FFFFFF;
-  --text-secondary:        #FFD6EC;
-  --text-muted:            #C88AA8;
-  --text-subtle:           #663050;
+  /* Delicate Rose Gold & Powder Pink */
+  --gold-primary:          #E0528A;
+  --gold-light:            #F07BAA;
+  --gold-shimmer:          #FFCCE1;
+  --gold-dark:             #A82258;
+  --gold-muted:            #C85080;
+  --gold-border:           rgba(224, 82, 138, 0.32);
+  --gold-border-light:     rgba(240, 123, 170, 0.6);
+  --gold-glow:             0 0 24px rgba(224, 82, 138, 0.28);
+  --gold-gradient:         linear-gradient(135deg, #F07BAA 0%, #E0528A 50%, #A82258 100%);
+  --gold-gradient-hover:   linear-gradient(135deg, #F894BC 0%, #EA6498 50%, #B82A62 100%);
+  --gold-surface:          rgba(224, 82, 138, 0.08);
 
-  --border-hairline:       rgba(255, 20, 147, 0.16);
-  --border-medium:         rgba(255, 20, 147, 0.3);
-  --border-focus:          #FF1493;
-
-  /* Electric Hot Barbie Pink */
-  --gold-primary:          #FF1493;
-  --gold-light:            #FF5EB0;
-  --gold-shimmer:          #FFB8DE;
-  --gold-dark:             #C70068;
-  --gold-muted:            #E04090;
-  --gold-border:           rgba(255, 20, 147, 0.45);
-  --gold-border-light:     rgba(255, 94, 176, 0.7);
-  --gold-glow:             0 0 28px rgba(255, 20, 147, 0.5);
-  --gold-gradient:         linear-gradient(135deg, #FF5EB0 0%, #FF1493 50%, #C70068 100%);
-  --gold-gradient-hover:   linear-gradient(135deg, #FF80C4 0%, #FF2E9E 50%, #D80074 100%);
-  --gold-surface:          rgba(255, 20, 147, 0.12);
-
-  --accent-gold-tint:      #FF1493;
-  --accent-lacquer:        #FF1493;
-  --accent-lacquer-soft:   #FF5EB0;
+  --accent-gold-tint:      #E0528A;
+  --accent-lacquer:        #E0528A;
+  --accent-lacquer-soft:   #F07BAA;
 
   /* Header */
-  --header-bg:             rgba(24, 9, 22, 0.94);
-  --header-border:         rgba(255, 20, 147, 0.35);
-  --header-brand-color:    #FFFFFF;
-  --header-nav-color:      #FFD6EC;
-  --header-nav-hover:      #FF5EB0;
-  --header-cta-bg:         linear-gradient(135deg, #FF5EB0 0%, #FF1493 100%);
+  --header-bg:             rgba(255, 246, 249, 0.94);
+  --header-border:         rgba(224, 82, 138, 0.25);
+  --header-brand-color:    #2A0E1C;
+  --header-nav-color:      #56233E;
+  --header-nav-hover:      #E0528A;
+  --header-cta-bg:         linear-gradient(135deg, #F07BAA 0%, #E0528A 100%);
   --header-cta-color:      #FFFFFF;
-  --header-cta-shadow:     0 4px 20px rgba(255, 20, 147, 0.55);
+  --header-cta-shadow:     0 4px 16px rgba(224, 82, 138, 0.35);
 
   /* Cards & Sections */
-  --card-bg:               rgba(38, 14, 34, 0.9);
-  --card-border:           rgba(255, 20, 147, 0.38);
-  --card-shadow:           0 14px 40px rgba(0, 0, 0, 0.5);
+  --card-bg:               #FFFFFF;
+  --card-border:           rgba(224, 82, 138, 0.24);
+  --card-shadow:           0 12px 36px rgba(42, 14, 28, 0.05);
 
-  --hero-bg:               #180916;
-  --hero-overlay:          linear-gradient(180deg, rgba(24, 9, 22, 0.75) 0%, rgba(24, 9, 22, 0.98) 100%);
-  --hero-text:             #FFFFFF;
+  --hero-bg:               #FFF6F9;
+  --hero-overlay:          linear-gradient(180deg, rgba(255, 246, 249, 0.7) 0%, rgba(255, 246, 249, 0.95) 100%);
+  --hero-text:             #2A0E1C;
 
-  --footer-bg:             #120610;
-  --footer-border:         rgba(255, 20, 147, 0.35);
-  --footer-text:           #FFFFFF;
+  --footer-bg:             #FEEAF2;
+  --footer-border:         rgba(224, 82, 138, 0.25);
+  --footer-text:           #2A0E1C;
 
-  --shadow-soft:           0 4px 24px rgba(255, 20, 147, 0.12);
-  --shadow-card:           0 12px 36px rgba(0, 0, 0, 0.6);
+  --shadow-soft:           0 4px 20px rgba(42, 14, 28, 0.04);
+  --shadow-card:           0 12px 36px rgba(42, 14, 28, 0.08);
 }
 
 /* ── THEME 3: BLUSH (Soft Barbie Powder Rose & Pearl Ivory) ──────────────── */
@@ -691,7 +684,7 @@ html .photo-tile__title,
 html .site-header__brand-name,
 html .motto-line--1,
 html .motto-line--3 {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 /* Dropdown popover when in black/dark background */
@@ -856,7 +849,7 @@ html
 
 
 html .links-category__title {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 /* =========================================================================
@@ -912,7 +905,7 @@ html .links-category__title {
 
 
 html .header-x-pill {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 
@@ -955,7 +948,7 @@ html .header-x-pill {
 
 
 html .header-x-btn {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 /* =========================================================================
@@ -1231,7 +1224,7 @@ html .header-x-btn {
 
 
 html .portal-card__title {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 /* =========================================================================
@@ -1314,7 +1307,7 @@ html .portal-card__title {
 
 
 html .receipts-section h2 {
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 /* =========================================================================
@@ -1442,4 +1435,85 @@ html
   flex-shrink: 0;
   margin-top: clamp(10px, 1.6vh, 16px);
   box-shadow: 0 6px 24px rgba(212, 175, 55, 0.35);
+}
+
+
+/* ── SOFT PINK LUXURY POLISH ─────────────────────────────────────────────── */
+body {
+  background-color: var(--bg-milky) !important;
+  color: var(--text-primary) !important;
+}
+
+.site-header {
+  background: var(--header-bg) !important;
+  border-bottom: 1px solid var(--header-border) !important;
+}
+
+.site-header__brand-name {
+  color: var(--header-brand-color) !important;
+}
+
+.desktop-nav .nav-link {
+  color: var(--header-nav-color) !important;
+}
+
+.desktop-nav .nav-link:hover {
+  color: var(--header-nav-hover) !important;
+}
+
+.header-x-btn {
+  background: #FFFFFF !important;
+  border: 1px solid var(--border-medium) !important;
+  color: #2A0E1C !important;
+}
+
+.header-x-btn:hover {
+  border-color: var(--gold-primary) !important;
+  color: var(--gold-primary) !important;
+}
+
+.portal-card {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(224, 82, 138, 0.22) !important;
+  box-shadow: 0 4px 20px rgba(224, 82, 138, 0.06) !important;
+}
+
+.portal-card:hover {
+  border-color: rgba(224, 82, 138, 0.45) !important;
+  box-shadow: 0 8px 30px rgba(224, 82, 138, 0.12) !important;
+}
+
+.portal-card__title {
+  color: #000000 !important;
+}
+
+.portal-card__desc {
+  color: var(--text-muted) !important;
+}
+
+.portal-card__badge {
+  background: rgba(224, 82, 138, 0.08) !important;
+  color: var(--gold-primary) !important;
+  border: 1px solid rgba(224, 82, 138, 0.25) !important;
+}
+
+.receipts-section {
+  background: #FFF0F5 !important;
+}
+
+.receipts-section h2 {
+  color: #000000 !important;
+}
+
+.nav-drawer__panel {
+  background: #FFF6F9 !important;
+  border-left: 1px solid rgba(224, 82, 138, 0.25) !important;
+}
+
+.nav-drawer__nav a {
+  color: #2A0E1C !important;
+}
+
+.nav-drawer__nav a:hover {
+  color: var(--gold-primary) !important;
 }

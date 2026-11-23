@@ -376,7 +376,7 @@ ul, ol {
   align-items: center;
   justify-content: center;
   padding: var(--space-4);
-  background: rgba(24, 9, 22, 0.97);
+  background: rgba(255, 246, 249, 0.65);
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
   transition: opacity var(--dur-slow) var(--ease-out), visibility var(--dur-slow) var(--ease-out);
@@ -440,7 +440,7 @@ ul, ol {
   font-size: 1.6rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #FF1493;
+  color: #E0528A;
   text-shadow: 0 0 24px rgba(255, 20, 147, 0.5);
   line-height: 1;
 }
@@ -448,7 +448,7 @@ ul, ol {
 .age-gate__divider {
   width: 52px;
   height: 1px;
-  background: #FF1493;
+  background: #E0528A;
   margin: var(--space-5) auto var(--space-4);
 }
 
@@ -486,17 +486,17 @@ ul, ol {
   font-size: 0.82rem;
   font-weight: 600;
   padding: 15px 32px;
-  background: linear-gradient(135deg, #FF1493 0%, #E0007A 50%, #B50062 100%);
-  border: 1px solid rgba(255, 20, 147, 0.65);
+  background: linear-gradient(135deg, #F07BAA 0%, #E0528A 50%, #A82258 100%);
+  border: 1px solid rgba(240, 123, 170, 0.65);
   color: #FFFFFF;
-  box-shadow: 0 4px 28px rgba(255, 20, 147, 0.4);
+  box-shadow: 0 4px 24px rgba(224, 82, 138, 0.4);
 }
 
 .age-gate__btn-enter:hover {
-  background: linear-gradient(135deg, #FF4DB3 0%, #FF1493 50%, #D40080 100%);
-  border-color: rgba(255, 150, 200, 0.9);
+  background: linear-gradient(135deg, #F894BC 0%, #EA6498 50%, #B82A62 100%);
+  border-color: rgba(255, 204, 225, 0.9);
   color: #FFFFFF;
-  box-shadow: 0 6px 36px rgba(255, 20, 147, 0.6);
+  box-shadow: 0 6px 32px rgba(224, 82, 138, 0.6);
   transform: translateY(-2px);
 }
 
